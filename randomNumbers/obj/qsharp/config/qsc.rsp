@@ -1,0 +1,52 @@
+--proj
+    "/home/godard/Documents/school/quantumQsharp_proj/randomNumbers/randomNumbers"
+--build-exe
+--input
+    "/home/godard/Documents/school/quantumQsharp_proj/randomNumbers/Program.qs"
+--output
+    "/home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/qsharp/"
+--references
+    "/home/godard/.nuget/packages/azure.core/1.25.0/lib/net5.0/Azure.Core.dll"
+    "/home/godard/.nuget/packages/azure.identity/1.5.0/lib/netstandard2.0/Azure.Identity.dll"
+    "/home/godard/.nuget/packages/azure.quantum.jobs/1.0.0-beta.3/lib/netstandard2.0/Azure.Quantum.Jobs.dll"
+    "/home/godard/.nuget/packages/azure.storage.blobs/12.13.1/lib/netstandard2.1/Azure.Storage.Blobs.dll"
+    "/home/godard/.nuget/packages/azure.storage.common/12.12.0/lib/netstandard2.0/Azure.Storage.Common.dll"
+    "/home/godard/.nuget/packages/microsoft.azure.quantum.client/0.28.302812/lib/net6.0/Microsoft.Azure.Quantum.Client.dll"
+    "/home/godard/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+    "/home/godard/.nuget/packages/microsoft.identity.client/4.30.1/lib/netcoreapp2.1/Microsoft.Identity.Client.dll"
+    "/home/godard/.nuget/packages/microsoft.identity.client.extensions.msal/2.18.4/lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.BondSchemas.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.entrypointdriver/0.28.302812/lib/net6.0/Microsoft.Quantum.EntryPointDriver.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCompilationManager.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCompiler.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsCore.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsDataStructures.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsDocumentationParser.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.qsharp.core/0.28.302812/lib/net6.0/Microsoft.Quantum.QSharp.Core.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.qsharp.foundation/0.28.302812/lib/net6.0/Microsoft.Quantum.QSharp.Foundation.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsOptimizations.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsSyntaxProcessor.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsTextProcessor.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.compiler/0.28.302812/lib/net6.0/Microsoft.Quantum.QsTransformations.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.runtime.core/0.28.302812/lib/net6.0/Microsoft.Quantum.Runtime.Core.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulation.Common.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.simulators/0.28.302812/lib/net6.0/Microsoft.Quantum.Simulators.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.standard/0.28.302812/lib/net6.0/Microsoft.Quantum.Standard.dll"
+    "/home/godard/.nuget/packages/microsoft.quantum.targets.interfaces/0.28.302812/lib/net6.0/Microsoft.Quantum.Targets.Interfaces.dll"
+    "/home/godard/.nuget/packages/windowsazure.storage/9.3.3/lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll"
+    "/home/godard/.nuget/packages/numsharp/0.20.5/lib/netstandard2.0/NumSharp.Core.dll"
+--load
+    "/home/godard/.nuget/packages/microsoft.quantum.csharpgeneration/0.28.302812/build//../lib/net6.0/Microsoft.Quantum.CSharpGeneration.dll"
+--runtime
+    FullComputation
+--skip-monomorphization
+--package-load-fallback-folders
+    "/home/godard/Documents/school/quantumQsharp_proj/randomNumbers/bin/Debug/net6.0/"
+--assembly-properties
+    DocsPackageId:randomNumbers
+    ExecutionTarget:Any
+    AssemblyName:randomNumbers
+    ProcessorArchitecture:Unspecified
+    TargetCapability:FullComputation
+    QSharpOutputType:QSharpExe
