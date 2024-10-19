@@ -166,6 +166,7 @@
 /home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/randomNumbers.AssemblyInfoInputs.cache
 /home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/randomNumbers.AssemblyInfo.cs
 /home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/randomNumbers.csproj.CoreCompileInputs.cache
+/home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/randomNumbers.sourcelink.json
 /home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/randomNumbers.dll
 /home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/refint/randomNumbers.dll
 /home/godard/Documents/school/quantumQsharp_proj/randomNumbers/obj/Debug/net6.0/randomNumbers.pdb

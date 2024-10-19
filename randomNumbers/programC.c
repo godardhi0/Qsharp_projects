@@ -1,10 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+/*
+    Question : 
 
-// Function to generate random number
-int generateRandomNumber() {
-    srand(time(0)); // Seed for random number generation
-    return rand() % 100; // Generate random number between 0 and 100
-}
+        Use your knowledge of C programming language to
+        write a function generateRandomNumber() that generates a pseudorandom number in an interval of 0 to 100.
+
+        ATTENTION : remember to include necessary libraries 
+*/
+
+
 
