@@ -1,4 +1,4 @@
-﻿namespace QuantumRandomNumberGenerator {
+﻿namespace randomNumbers {
     open Microsoft.Quantum.Convert;
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
@@ -9,11 +9,11 @@
         Message($"Sampling a random number between 0 and {max}: ");
 
         // Generate random number in the 0..max range.
-        return RandomNumInRage(max);
+        return RandomNumInRange(max);
     }
 
     /// Generates a random number between 0 and `max`.
-    operation RandomNumInRage(max : Int) : Int {
+    operation RandomNumInRange(max : Int) : Int {
         // Determine the number of bits needed to represent `max` and store it
         // in the `nBits` variable. Then generate `nBits` random bits which will
         // represent the generated random number.
@@ -26,7 +26,7 @@
 
         // Return random number if it is within the requested range.
         // Generate it again if it is outside the range.
-        return sample > max ? RandomNumInRage(max) | sample;
+        return sample > max ? RandomNumInRange(max) | sample;
     }
 
     operation GenerateRandomBit() : Result {

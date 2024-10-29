@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 using Microsoft.Quantum.Simulation.Simulators;
-using QuantumRandomNumberGenerator; 
+using randomNumbers; 
 
 class Program
 {
@@ -19,7 +19,7 @@ class Program
             using (var simulator = new QuantumSimulator())
             {
                 int n = 8; // Number of bits for the random number
-                quantumRandomNumber = RandomNumInRage.Run(simulator, n).Result;
+                quantumRandomNumber = RandomNumInRange.Run(simulator, n).Result;
                 Console.Write($"Quantum Random Number: {quantumRandomNumber} -- ");
             }
 
